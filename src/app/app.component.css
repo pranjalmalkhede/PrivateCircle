@@ -1,0 +1,196 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: #f5f5f5;
+    align-items: center;
+}
+
+.top_left {
+    display: flex;
+}
+
+.top_main {
+    /* height: 20px; */
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: grey;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    min-width: 140px;
+    font-weight: bold;
+    
+}
+
+.top_main:hover {
+    background-color: rgb(221, 221, 221);
+    transition: all 0.1s ease-in;
+}
+
+.top_main.active {
+    background: #0f4867;
+    color: white;
+}
+
+.top_main .mat-icon {
+    margin-right: 10px;
+}
+
+input {
+    width: 355px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: lightgray;
+}
+
+input:focus-visible {
+    outline: none;
+    border: 2px solid skyblue;
+    color: grey;
+}
+
+table {
+    width: 80%;
+    border: none;
+}
+
+th {
+    height: 40px;
+    padding: 0 10px;
+}
+
+td {
+    height: 50px;
+    padding: 0 10px;
+}
+
+tr:hover {
+    background: rgba(233, 233, 233, 0.273);
+}
+
+tr:hover .details {
+    background-color: white;
+    border-bottom: 4px solid #0f4867;
+
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.details {
+    width: 80px;
+    background: none;
+    border: none;
+    color: #0f4867;
+    height: 65%;
+    font-weight: 600;
+    border-radius: 5px 5px 0 0;
+}
+
+.bold {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 179, 255);
+}
+
+.black {
+    color: black;
+}
+
+table th:nth-child(1) {
+    width: 80px;
+    /* background-color: red; */
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+}
+
+.description {
+    width: 20%;
+}
+
+.description_content {
+    margin: 20px;
+    background: rgba(233, 233, 233, 0.273);
+    border-radius: 5px;
+    font-size: 12px;
+    padding:10px;
+    /* display: flex; */
+}
+
+.darkblue {
+    color: #0f4867;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.description_list {
+    font-size: 11px;
+    margin: 20px;
+}
+
+.details_list {
+    color: #1a81ba;
+    font-weight: 600;
+}
+
+a {
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: rgb(246, 129, 129);
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+
+.edit:hover {
+    color: rgb(252, 241, 121);
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+
+.share:hover {
+    color: rgb(158, 250, 93);
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+
+.mail:hover {
+    color: rgb(126, 130, 247);
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+}
+
+mat-icon {
+    color:rgb(187, 187, 187);;
+}
+
+table mat-icon {
+    margin: 0 5px;
+}
+
+td {
+    cursor: pointer;
+}
